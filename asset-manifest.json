@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ape/static/css/main.92ea1eca.css",
+    "main.js": "/ape/static/js/main.a5df7186.js",
+    "static/js/787.56ae01aa.chunk.js": "/ape/static/js/787.56ae01aa.chunk.js",
+    "static/media/boredape.gif": "/ape/static/media/boredape.84cc3902b13175220262.gif",
+    "static/media/club-landing.mp4": "/ape/static/media/club-landing.a362fb2bec15876bab3e.mp4",
+    "static/media/8.png": "/ape/static/media/8.d3b4f63252b3d3246612.png",
+    "static/media/6.png": "/ape/static/media/6.eca02e11f869e3c9ede5.png",
+    "static/media/7.png": "/ape/static/media/7.e6f6eff2daaa805b0987.png",
+    "static/media/1.png": "/ape/static/media/1.b1bb5d4f00aa2dde3d0a.png",
+    "static/media/2.png": "/ape/static/media/2.9d21d9903c080c0574b7.png",
+    "static/media/3.png": "/ape/static/media/3.8b01ceeb294e04279ff2.png",
+    "static/media/5.png": "/ape/static/media/5.12a94f966d786ebfe1b6.png",
+    "static/media/4.png": "/ape/static/media/4.10330f8dda667b8aa186.png",
+    "static/media/metamask.png": "/ape/static/media/metamask.b50155c0cfb6ec7420e3.png",
+    "static/media/bayc-logo.webp": "/ape/static/media/bayc-logo.a26b2a746dbe36b2474b.webp",
+    "index.html": "/ape/index.html",
+    "main.92ea1eca.css.map": "/ape/static/css/main.92ea1eca.css.map",
+    "main.a5df7186.js.map": "/ape/static/js/main.a5df7186.js.map",
+    "787.56ae01aa.chunk.js.map": "/ape/static/js/787.56ae01aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ea1eca.css",
+    "static/js/main.a5df7186.js"
+  ]
+}
