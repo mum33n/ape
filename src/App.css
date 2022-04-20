@@ -1,38 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: 'Montserrat';
+}
+body{
+  position: relative;
+}
 .App {
-  text-align: center;
+  background-color: #000;
+  color: aliceblue;
+  gap:20px;
+  max-width: 100% !important;
+  margin: 0 !important;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outline{
+  border:  2px solid ;
+  border-image: linear-gradient(90deg,#e55d45 2.09%,#9c61a3 82.27%);
+    border-image-source: linear-gradient(90deg, rgb(229, 93, 69) 2.09%, rgb(156, 97, 163) 82.27%);
+  border-image-width: 1;
+  border-image-slice: 1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  background-color: #bfc500 !important;
+  color: #000;
+  border: 0;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  padding: 5% !important;
+  margin: auto auto !important;
+  transition: .3s !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.scroll {
+  /* opacity: .25; */
+  font-size: .7em;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: .05em;
+  line-height: .6em;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.rotate {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  width: max-content;
+  top: 50%;
+  left: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date{
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg,#e55d45 2.09%,#9c61a3 82.27%);
+  -webkit-background-clip: text;
+}
+body{
+  background-color: black !important;
+  max-width: 100% !important;
+}
+.common-title{
+  font-size: 1.7em;
+  font-weight: 800;
+  font-style: italic;
+}
+.common-image{
+  position: relative;
+  margin-bottom: -37px;
+}
+.last-line {
+  border-bottom: 15px solid #bfc500;
+  display: block;
+  padding-top: 30px;
+  max-width: 100%;
+}
+.welcome{
+  background-color: #000;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+.wallet{
+  background-color: rgb(20, 19, 19) !important;
+}
+.ind{
+  z-index: 100000000000 !important;
+}
+@media screen and (min-width: 992px){
+.welcome {
+    margin-top: -269px !important;
+}
 }
